@@ -66,7 +66,7 @@ export default function Weather(props) {
         <WeatherForecast coordinates={weatherData.coordinates} />
         <footer>
           Coded with 🤍 by{" "}
-          <a href="https://cozy-manatee-c79f41.netlify.app/">Claudia Hügi</a>{" "}
+          <a href="https://www.linkedin.com/in/claudia-huegi/">Claudia Hügi</a>{" "}
           {""}
           and open sourced on{" "}
           <a
