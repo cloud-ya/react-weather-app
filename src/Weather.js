@@ -48,7 +48,7 @@ export default function Weather(props) {
               <input
                 type="search"
                 placeholder="Enter a query..."
-                className="form-control"
+                className="form-control search-input"
                 autoFocus="on"
                 onChange={handleCityChange}
               />
@@ -63,7 +63,7 @@ export default function Weather(props) {
           </div>
         </form>
         <WeatherInfo data={weatherData} />
-        <WeatherForecast />
+        <WeatherForecast coordinates={weatherData.coordinates} />
       </div>
     );
   } else {

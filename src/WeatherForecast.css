@@ -1,5 +1,11 @@
 .WeatherForecast {
   text-align: center;
+  border-bottom: 1px solid rgba(39, 33, 66, 0.128);
+}
+
+.WeatherForecast.row {
+  margin-top: 20px;
+  padding-bottom: 20px;
 }
 
 .WeatherForecast-temperature-min {
